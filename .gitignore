@@ -20,3 +20,5 @@ config/.local_store
 config/.org_metadata
 
 config/.org_metadata
+
+config/.local_store
