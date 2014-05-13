@@ -1,0 +1,35 @@
+{
+    "properties": [], 
+    "methods": [], 
+    "innerClasses": [], 
+    "variables": [], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "TestTriggerClass", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 2
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "TestTriggerClass", 
+    "tableDeclaration": {
+        "type": "TestTriggerClass", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "TestTriggerClass"
+    }, 
+    "key": "01pF0000003PZNz", 
+    "id": "01pF0000003PZNz", 
+    "externalReferences": []
+}

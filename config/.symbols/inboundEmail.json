@@ -1,0 +1,116 @@
+{
+    "properties": [], 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "handleInboundEmail", 
+            "parameters": [
+                {
+                    "type": "InboundEmail", 
+                    "name": "email"
+                }, 
+                {
+                    "type": "InboundEnvelope", 
+                    "name": "env"
+                }
+            ], 
+            "visibility": "GLOBAL", 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 3
+            }, 
+            "returnType": "InboundEmailResult", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "InboundEmail", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 80, 
+                "line": 3
+            }, 
+            "name": "email"
+        }, 
+        {
+            "type": "InboundEnvelope", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 113, 
+                "line": 3
+            }, 
+            "name": "env"
+        }, 
+        {
+            "type": "InboundEmailResult", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 32, 
+                "line": 8
+            }, 
+            "name": "result"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 10
+            }, 
+            "name": "myPlainText"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 12
+            }, 
+            "name": "newTask"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 14
+            }, 
+            "name": "con"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 18
+            }, 
+            "name": "contact"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "inboundEmail", 
+    "tableDeclaration": {
+        "type": "inboundEmail", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "inboundEmail"
+    }, 
+    "key": "01pF0000003PVxr", 
+    "id": "01pF0000003PVxr", 
+    "externalReferences": []
+}

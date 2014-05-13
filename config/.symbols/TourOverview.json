@@ -1,0 +1,83 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "bands", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 3
+            }, 
+            "type": "LIST"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "approve", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 4
+            }, 
+            "type": "String"
+        }
+    ], 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "approveBand", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 13
+            }, 
+            "returnType": "PageReference", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "Band__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 14
+            }, 
+            "name": "b"
+        }
+    ], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "TourOverview", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 8
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "TourOverview", 
+    "tableDeclaration": {
+        "type": "TourOverview", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "TourOverview"
+    }, 
+    "key": "01pF0000003PWF9", 
+    "id": "01pF0000003PWF9", 
+    "externalReferences": []
+}

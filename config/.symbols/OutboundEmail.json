@@ -1,0 +1,76 @@
+{
+    "properties": [], 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "handleInboundEmail", 
+            "parameters": [
+                {
+                    "type": "InboundEmail", 
+                    "name": "email"
+                }, 
+                {
+                    "type": "InboundEnvelope", 
+                    "name": "envelope"
+                }
+            ], 
+            "visibility": "GLOBAL", 
+            "references": [], 
+            "location": {
+                "column": 40, 
+                "line": 3
+            }, 
+            "returnType": "InboundEmailResult", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "InboundEmail", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 82, 
+                "line": 3
+            }, 
+            "name": "email"
+        }, 
+        {
+            "type": "InboundEnvelope", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 115, 
+                "line": 3
+            }, 
+            "name": "envelope"
+        }, 
+        {
+            "type": "InboundEmailResult", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 34, 
+                "line": 5
+            }, 
+            "name": "result"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "OutboundEmail", 
+    "tableDeclaration": {
+        "type": "OutboundEmail", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "OutboundEmail"
+    }, 
+    "key": "01pF0000003PVxm", 
+    "id": "01pF0000003PVxm", 
+    "externalReferences": []
+}

@@ -1,0 +1,19 @@
+{
+    "username": "hireme@brandon.com", 
+    "environment": "developer", 
+    "project_name": "Hire Me", 
+    "workspace": "/Users/Brandon/Projects/Salesforce", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "G0OQLFXX9SFCF6LZQBYQCUJ1NSR3DWT3", 
+    "metadata_container": "1dcF0000000UQoQIAW", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "CustomObject", 
+        "Profile", 
+        "StaticResource"
+    ]
+}

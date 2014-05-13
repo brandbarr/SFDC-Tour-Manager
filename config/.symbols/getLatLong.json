@@ -1,0 +1,144 @@
+{
+    "properties": [], 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "getLocation", 
+            "parameters": [
+                {
+                    "type": "Id", 
+                    "name": "tdId"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 41, 
+                "line": 4
+            }, 
+            "name": "tdId"
+        }, 
+        {
+            "type": "Tour_Date__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 6
+            }, 
+            "name": "td"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 9
+            }, 
+            "name": "address"
+        }, 
+        {
+            "type": "Http", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 24
+            }, 
+            "name": "h"
+        }, 
+        {
+            "type": "HttpRequest", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 25
+            }, 
+            "name": "req"
+        }, 
+        {
+            "type": "HttpResponse", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 32
+            }, 
+            "name": "res"
+        }, 
+        {
+            "type": "JSONParser", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 35
+            }, 
+            "name": "parser"
+        }, 
+        {
+            "type": "Double", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 36
+            }, 
+            "name": "lat"
+        }, 
+        {
+            "type": "Double", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 37
+            }, 
+            "name": "lon"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 43
+            }, 
+            "name": "txt"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "getLatLong", 
+    "tableDeclaration": {
+        "type": "getLatLong", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "getLatLong"
+    }, 
+    "key": "01pF0000003PW7t", 
+    "id": "01pF0000003PW7t", 
+    "externalReferences": []
+}

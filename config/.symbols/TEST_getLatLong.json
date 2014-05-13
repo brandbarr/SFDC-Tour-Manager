@@ -1,0 +1,52 @@
+{
+    "properties": [], 
+    "methods": [
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "test_method_one", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "Tour_Date__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 5
+            }, 
+            "name": "v"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "TEST_getLatLong", 
+    "tableDeclaration": {
+        "type": "TEST_getLatLong", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 2
+        }, 
+        "name": "TEST_getLatLong"
+    }, 
+    "key": "01pF0000003PW8D", 
+    "id": "01pF0000003PW8D", 
+    "externalReferences": []
+}

@@ -1,0 +1,60 @@
+<apex:page controller="touroverview" standardStylesheets="false" showHeader="false" sidebar="false">
+<head>
+	<link href="{!URLFOR($Resource.bootStrap, 'bootstrap-3.1.1-dist/css/bootstrap.min.css')}" rel="stylesheet" media="screen"/>
+	<apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" />
+	<apex:includeScript value="{!URLFOR($Resource.bootStrap, 'bootstrap-3.1.1-dist/js/bootstrap.min.js')}"/>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1>Hello</h1>
+		</div>
+		<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+		  <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+		  <li class=""><a href="#bands" data-toggle="tab">Bands</a></li>
+		  <li class=""><a href="#dates" data-toggle="tab">Dates</a></li>
+		</ul>
+		
+		<div id="" class="tab-content container">
+			<section class="tab-pane" id="home">
+			Home
+			</section>
+			<section class="tab-pane" id="bands">
+
+				<apex:repeat value="{!bands}" var="b"  id="bands">
+					<div class="bs-component col-md-6">
+						<div class="panel panel-primary">
+				  			<div class="panel-heading">
+				   				<h3 class="panel-title">{!b.name}</h3>
+							</div>
+							<div class="panel-body">
+				    			<div class="image col-md-5">
+				    				<img src="{!b.image_url__c}" />
+				    			</div>
+				    			<div class="col-md-6">
+				    				Hometown: {!b.home_city__c},&nbsp;{!b.home_state__c}<br />
+				    				Members: {!b.members__c}<br />
+				    				Transportation: {!b.transportation__c}<br />
+				    				<apex:form>
+				    					{!b.id}
+				    					<apex:commandButton value="Approve" action="{!approveBand}" rendered="{!IF(b.approved__c, false, true)}" >
+				    						<apex:param value="{!b.id}" assignTo="{!approve}" />
+				    					</apex:commandButton>
+				    				</apex:form>
+
+
+				    			</div>
+				  			</div>
+			  			</div>
+					</div>
+				</apex:repeat>
+			</section>
+			<section class="tab-pane" id="dates">
+				dates
+			</section>
+			</div>
+		</div>
+</body>
+
+	
+</apex:page>
