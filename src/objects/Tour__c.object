@@ -39,6 +39,17 @@
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <fields>
+        <fullName>Number_Of_Bands__c</fullName>
+        <externalId>false</externalId>
+        <label>Number Of Bands</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Tour_End_Date__c</fullName>
         <description>Tour end date for the tour management app</description>
         <externalId>false</externalId>

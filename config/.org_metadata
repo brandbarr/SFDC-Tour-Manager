@@ -45,6 +45,18 @@
             }, 
             {
                 "leaf": true, 
+                "title": "TestTriggerClass", 
+                "checked": false, 
+                "id": "ApexClass.TestTriggerClass", 
+                "text": "TestTriggerClass", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
+            {
+                "leaf": true, 
                 "title": "TourOverview", 
                 "checked": false, 
                 "id": "ApexClass.TourOverview", 
@@ -162,6 +174,18 @@
             "metaFile": true
         }, 
         "children": [
+            {
+                "leaf": true, 
+                "title": "NumberOfBands", 
+                "checked": false, 
+                "id": "ApexTrigger.NumberOfBands", 
+                "text": "NumberOfBands", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
             {
                 "leaf": true, 
                 "title": "getLatLong", 
@@ -727,6 +751,16 @@
                         "title": "fields", 
                         "isFolder": true, 
                         "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Approved__c", 
+                                "title": "Approved__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Band__c.fields.Approved__c", 
+                                "select": false
+                            }, 
                             {
                                 "leaf": true, 
                                 "checked": false, 
@@ -3532,6 +3566,16 @@
                         "title": "fields", 
                         "isFolder": true, 
                         "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Number_Of_Bands__c", 
+                                "title": "Number_Of_Bands__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Tour__c.fields.Number_Of_Bands__c", 
+                                "select": false
+                            }, 
                             {
                                 "leaf": true, 
                                 "checked": false, 
